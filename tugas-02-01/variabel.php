@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Ini adalah variabel dengan nilai yang diubah 
+ * Ini adalah variabel dengan nilai yang diubah
  */
 $nama = "Dilah";
 $usia = 26;

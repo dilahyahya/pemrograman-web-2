@@ -11,7 +11,7 @@ $prodi = isset ($_POST["textPRODI"]) ? $_POST ["textPRODI"] : "";
 */
 if ($nama)
 {
-echo "Hai, perkenalkan nama saya : ".$nama;
+echo "Hai, perkenalkan Nama saya : ".$nama;
 }
 
 if ($nim)
@@ -23,6 +23,6 @@ dengan NIM ".$nim ;
 if ($prodi)
 {
 echo " Saya adalah seorang
-mahasiswa dari program studi ".$prodi;
+mahasiswa dari Program studi ".$prodi;
 }
 ?>
