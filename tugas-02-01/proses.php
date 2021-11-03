@@ -1,20 +1,28 @@
 <?php
+/**
+* Inisialisasi variabel
+*/
+$nim = isset($_POST["txtNIM"]) ? $_POST["txtNIM"] : "";
+$nama = isset ($_POST["textNAMA"]) ? $_POST ["textNAMA"] : "";
+$prodi = isset ($_POST["textPRODI"]) ? $_POST ["textPRODI"] : "";
 
 /**
- * Inisialisasi variabel
- */
-$nim = isset ($_POST["txtNIM"]) ? $_POST["txtNIM"] : "";
-$nama = "Nurfadilah";
-$prodi = "Teknik Informatika";
-$simpan = "";
-
-/**
- * Menangkap variabel dan data serta menampilkan ke layar 
- */
-if ($simpan)
+* Menangkap variabel dan data serta menampilkan ke layar
+*/
+if ($nama)
 {
-    echo "Hai, perkenalkan nama saya : ".Nurfadilah." 
-    dengan nim ".20212215008.". Saya adalah seorang mahasiswa dari program studi ".Teknik Informatika.";
+echo "Hai, perkenalkan nama saya : ".$nama;
 }
 
+if ($nim)
+{
+echo "
+dengan NIM ".$nim ;
+}
+
+if ($prodi)
+{
+echo " Saya adalah seorang
+mahasiswa dari program studi ".$prodi;
+}
 ?>
