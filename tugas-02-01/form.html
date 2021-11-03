@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>FORM INPUT DATA MAHASISWA</title>
+</head>
+<body>
+        <form>
+            <table>
+                <tr>
+                    <td class="txt">
+                        <center><font size = 6>FORM INPUT DATA MAHASISWA</font></center>
+                    </td>
+                <tr>
+                    <td class="txt">NIM</td>
+                    <td><input type="text" name="nim"</td>
+                </tr> 
+                <tr>
+                    <td class="txt">NAMA MAHASISWA</td>
+                    <td><input type="text" name="nama_mahasiswa"</td>
+                </tr> 
+                <tr>
+                    <td class="txt">Program Studi</td>
+                    <td>
+                        <select id="program_studi" onchange="changeStatus()">
+                        <option value>S1 Teknik Informatika</option>
+                        <option value>S1 Sistem Informasi</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Simpan" style="padding:10px"</td>
+                </tr>  
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
